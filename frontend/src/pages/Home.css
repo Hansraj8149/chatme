@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+
+}
+.home_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home_content {
+width: 95%;
+}
+.home_right {
+    width:50%;
+
+}
+.home_right > img{
+    width:510px;
+    height:600px;
+}
+.home_btn{
+    background-color:rgb(107, 172, 3) !important;
+    border:none !important;
+}

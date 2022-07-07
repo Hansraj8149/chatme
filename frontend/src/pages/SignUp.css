@@ -1,0 +1,33 @@
+.signup__bg {
+    background-image: url('https://img.freepik.com/free-photo/businessman-logging-his-tablet_53876-102029.jpg?w=740&t=st=1656511489~exp=1656512089~hmac=e6479ca700ebdfbae6993e0328fe9437ed96368968c17fc39e91b6e7b909e677');
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}

@@ -1,0 +1,10 @@
+.login__bg {
+    background-image: url('https://img.freepik.com/free-photo/man-holding-mobile-phone-with-log-screen_53876-105381.jpg?t=st=1656511328~exp=1656511928~hmac=3927861131b904a158e0155d412395eca964da300d2845a5a0d925f11954d459&w=740');
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    position: relative;
+    left:23px;
+}
