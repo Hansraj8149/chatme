@@ -1,16 +1,14 @@
 {
-    "version": 2,
-    "name": "music-album",
     "builds": [
         {
-            "src": "server.js",
+            "src": "./server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
+            "src": "/.*",
+            "dest": "server.js"
         }
     ]
 }
